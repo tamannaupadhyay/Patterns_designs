@@ -1,0 +1,10 @@
+import turtle
+elsa=turtle.Turtle()
+turtle.speed(1)
+for i in range(10):
+    for i in range(2):
+        elsa.forward(100)
+        elsa.rt(60)
+        elsa.forward(100)
+        elsa.rt(120)
+    elsa.rt(36)
